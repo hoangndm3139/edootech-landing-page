@@ -13,15 +13,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
       {/* Hero */}
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
-        <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-          <p className="text-xl font-semibold text-gray-700">
-            Try Convo for Free
-          </p>
-        </div>
-
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
           <span className="text-yellow">Speech</span> Focused Language
           Learning
@@ -294,6 +287,13 @@ export default function Home() {
           </div>
 
           <div>
+            <div className="mb-6 px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl sm:text-center">
+                <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
+                  Pricing
+                </h2>
+              </div>
+            </div>
             <PricingPlans />
           </div>
         </div>
